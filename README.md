@@ -1,7 +1,7 @@
 # Ft_server
 
 This project aims to create a web server using Nginx, and run multiple services: Wordpress, phpMyAdmin, and a SQL database.
-The server is deployed on Docker whale.
+The server is deployed on Docker 🐋.
 
 # Building, running and cleaning up containers
 
@@ -19,8 +19,8 @@ We should set up all these services using a Dockerfile based on Debian image.
 
 `docker ps` list all containers.
 
-`docker rmi $(docker images -q) will remove all the images.
+`docker rmi $(docker images -q)` will remove all the images.
 
-docker rm $(docker ps -qa) will remove all the containers.
+`docker rm $(docker ps -qa)` will remove all the containers.
 
 `docker system prune` will cleanup the temporary files and the rest of remaining used space.
