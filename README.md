@@ -1,7 +1,7 @@
 # Ft_server
 
 This project aims to create a web server using Nginx, and run multiple services: Wordpress, phpMyAdmin, and a SQL database.
-The server is deployed on Docker.
+The server is deployed on Docker whale.
 
 # Building, running and cleaning up containers
 
