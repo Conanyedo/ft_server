@@ -1,9 +1,9 @@
-# ft_server
+# Ft_server
 
 This project aims to create a web server using Nginx, and run multiple services: Wordpress, phpMyAdmin, and a SQL database.
 The server is deployed on Docker.
 
-#Building, running and cleaning up containers
+# Building, running and cleaning up containers
 
 We should set up all these services using a Dockerfile based on Debian image.
 
